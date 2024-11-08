@@ -1,0 +1,17 @@
+Data was collected over a 2.5 year period for over 14,000 customers.
+Data in all columns except 'purchased_again' column reflect a 2 year period.
+The 'purchased_again' column (T/F target col) reflects if the customer made another purchase in the 6 months right after that 2-year period.
+
+
+Column info (all reflecting a 2 year period):
+book_len_total - Total # of minutes of content in all of customer's purchased books
+book_len_avg - Same as above, but average per book
+spent_total - Total amount customer spent on books
+spent_avg - Average amount per book
+left_review - Whether or not customer has ever left a review
+review_score - Average of that customer's reviews. Initially empty for many rows, so during preprocessing empty
+               values were filled with 8.91, the average of the entire column across all customers.
+minutes_listened - Number of unique minutes of content customer has listened to.
+completion_amt - Amount of customer's purchased content they completed (i.e., minutes_listened / book_len_total)
+support_requests - Total number of support requests customer submitted
+last_visited_minus_purchase_date - Date between customer's last interaction with platform and their first purchase date.
