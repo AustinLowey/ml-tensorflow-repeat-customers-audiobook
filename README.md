@@ -1,9 +1,11 @@
 # Machine Learning - Predicting Repeat Customers
-- Using Machine Learning/Deep Neural Networks built with TensorFlow to predict repeat audiobook customers for ad-targeting.
+Using Deep Neural Networks built with TensorFlow to predict repeat audiobook customers for ad-targeting.
 
 ## Results
-- 'Baseline' model test accuracy: 81.03%
-- Hyperparameter-tuned model test accuracy: TBD
+**Final Model - Test Accuracy: 82.62%**
+
+<img src="assets/img/overall-acc-model-comparison.png" width="500">
+<img src="assets/img/overall-loss-model-comparison.png" width="500">
 
 ## DNN Architecture and ML Workflow
 
