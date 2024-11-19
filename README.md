@@ -6,7 +6,6 @@ Using Deep Neural Networks built with TensorFlow to predict repeat audiobook cus
 
 <img src="assets/img/model-comparisons.png">
 
-
 ## DNN Architecture and ML Workflow
 
 ### Overview / Table of Contents
@@ -76,8 +75,8 @@ Despite the models trained on undersampling data performing poorer than the SMOT
 Employing stratified k-fold cross validation resulted in validation loss improvement on all 10 models. However, it was still not enough of an improvement to compete with the SMOTE-trained models. Therefore, the ensemble model found in section 7 was chosen as the final model.
 
 ### 9. Final Model and Testing
-Now that a final model was chosen, the test dataset could be used to attain the official performance benchmark. 
+Now that a final model was chosen, the test dataset could be used to attain the official performance benchmark. The final model achieved an **accuracy of 82.62%** and a **loss of 0.3306**. The predictions can be visualized through the below confusion matrix.
 
 <img src="assets/img/confusion-matrix.png" width="400">
 
-Finally, the progression of each model type and their performances can be seen on the [plot in the beginning of this README](#results).
+Finally, the progression of each model type and their performances can be seen in the [plot in the beginning of this README](#results).
