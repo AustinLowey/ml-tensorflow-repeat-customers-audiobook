@@ -38,9 +38,7 @@ Using Deep Neural Networks built with TensorFlow to predict repeat audiobook cus
 - Adaptive Moment Estimation used for optimizer, Sparse Categorical Crossentropy used for loss, and a batch size of 128 was used.
 - Early stopping implemented to prevent overfitting. Stopped when validation loss began increasing with a patience factor of 5, with restore_best_weights=True (i.e., once val_loss increased for 5 consecutive epochs, stop training and "roll back" the model).
 
-- The following hyperparameters were tuned using Keras Tuner's Hyperband; the results are shown below.
-
-- **Best Undersampling Approach Hyperparameters:**
+- The following hyperparameters were tuned using Keras Tuner's Hyperband; the results for the best model are shown below.
   - num_hidden_layers = 5
   - hidden_layer_size = 16
   - activation = 'tanh'
