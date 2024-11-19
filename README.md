@@ -52,7 +52,7 @@ Using Deep Neural Networks built with TensorFlow to predict repeat audiobook cus
 
 <img src="assets/img/baseline-model-smote.png">
 
-- The Hyperband HPT experiment was then performed. The hyperparamaters for the best two models can be seen below. These two were chosen to be displayed here, as they would later be ensembled into the final model.
+The Hyperband HPT experiment was then performed. The hyperparamaters for the best two models can be seen below. These two were chosen to be displayed here, as they would later be ensembled into the final model.
 
 | Hyperparameter    | Best Model | 2nd Best Model |
 |-------------------|------------|----------------|
