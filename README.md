@@ -40,13 +40,13 @@ Using Deep Neural Networks built with TensorFlow to predict repeat audiobook cus
 
 - The following hyperparameters were tuned using Keras Tuner's Hyperband; the results are shown below.
 
-**Best Undersampling Approach Hyperparameters:**
-num_hidden_layers = 5
-hidden_layer_size = 16
-activation = 'tanh'
-dropout_rate = 0.2
-l2_strength = 0.0009
-learning_rate = 0.0051
+- **Best Undersampling Approach Hyperparameters:**
+  - num_hidden_layers = 5
+  - hidden_layer_size = 16
+  - activation = 'tanh'
+  - dropout_rate = 0.2
+  - l2_strength = 0.0009
+  - learning_rate = 0.0051
 
 ### 4. SMOTE Approach: Baseline Model and Hyperparameter Tuning
 - The same model architecture and Hyperband HPT process were performed again, but this time using the SMOTE-oversampled data.
